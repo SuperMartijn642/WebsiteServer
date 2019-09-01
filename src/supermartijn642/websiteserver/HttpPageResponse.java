@@ -18,8 +18,8 @@ public class HttpPageResponse extends HttpResponse {
         this.setField("content-type", "text/html");
         int size = 0;
         for(String s : content)
-            size += s.getBytes().length;
-        this.setField("content-length", "" + (size + 8));
+            size += s.getBytes().length + "\n".getBytes().length;
+        this.setField("content-length", "" + size);
     }
 
     @Override
