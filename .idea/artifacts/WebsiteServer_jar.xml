@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WebsiteServer:jar">
+    <output-path>$PROJECT_DIR$/../../../Website Server - Copy</output-path>
+    <root id="archive" name="WebsiteServer.jar">
+      <element id="module-output" name="WebsiteServer" />
+      <element id="module-output" name="HttpServer" />
+    </root>
+  </artifact>
+</component>

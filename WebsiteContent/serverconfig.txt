@@ -1,0 +1,20 @@
+# The port the server socket will be bound to.
+# Default: 80
+port: 80
+
+# The folder for files that can be requested.
+# Default: ./files
+path: ./files
+
+# The default page for the website.
+# Default: home
+default_page: home
+
+# The page that will be send when a file can't be found.
+# Default: not_found
+not_found: not_found.html
+
+# The file that will be sent when the favicon is requested.
+# Default: favicon.ico
+favicon: favicon.ico
+
